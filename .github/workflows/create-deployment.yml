@@ -1,5 +1,5 @@
 name: Create Azure resources
-on: [workflow_dispatch]
+on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
